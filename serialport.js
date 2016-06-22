@@ -1,5 +1,5 @@
 
-const SerialInterface = require( __dirname + '/serial_master.js')
+const SerialInterface = require( './serial_master.js')
 const SerialPort = require( 'serialport')
 
 module.exports={
