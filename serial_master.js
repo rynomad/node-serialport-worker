@@ -3,10 +3,10 @@
 const events = require('events');
 const cp = require('child_process');
 const processModule = require("process");
-const SERIAL_EVENTS = require(__dirname + '/serial_events.js');
+const SERIAL_EVENTS = require('./serial_events.js');
 
 
-var serial_worker = cp.fork(__dirname + '/serial_worker.js',{silent:false});
+var serial_worker = cp.fork('./serial_worker.js',{silent:false});
 
 
 
