@@ -2,7 +2,7 @@
 const serial = require('serialport');
 const serialport = serial.SerialPort;
 const processModule = require('process');
-const SERIAL_EVENTS = require(__dirname + '/serial_events.js');
+const SERIAL_EVENTS = require('./serial_events.js');
 
 var port = null;
 
